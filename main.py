@@ -5,7 +5,7 @@ def baseball_Strikeouts(csv):
     count = 0
     with open(csv, "r") as file:
         for line in file:
-            if "strikeout" in line: 
+            if "single" in line: 
                 count = count + 1
 
     print(count)
